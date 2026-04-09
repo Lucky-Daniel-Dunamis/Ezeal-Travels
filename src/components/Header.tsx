@@ -24,7 +24,7 @@ export function Header() {
               boxShadow: "0 2px 12px 0 rgba(51,168,216,0.13), 0 0 0 1.5px rgba(51,168,216,0.18)",
             }}
           >
-            <img src="/logo.png" alt="Eezeal Travels Logo" className="h-12 w-auto" style={{ mixBlendMode: 'multiply' }} />
+            <img src="./logo.png" alt="Eezeal Travels Logo" className="h-12 w-auto" style={{ mixBlendMode: 'multiply' }} />
           </div>
         </div>
 
@@ -86,7 +86,7 @@ export function Header() {
                   className="px-2 py-1 rounded-xl"
                   style={{ background: 'linear-gradient(135deg, #e8f6fd 0%, #d0ecf8 60%, #bde4f5 100%)' }}
                 >
-                  <img src="/logo.png" alt="Logo" className="h-10 w-auto" style={{ mixBlendMode: 'multiply' }} />
+                  <img src="./logo.png" alt="Logo" className="h-10 w-auto" style={{ mixBlendMode: 'multiply' }} />
                 </div>
                 <button onClick={() => setMenuOpen(false)} className="p-2 rounded-full hover:bg-gray-100">
                   <X size={24} className="text-brand-dark" />

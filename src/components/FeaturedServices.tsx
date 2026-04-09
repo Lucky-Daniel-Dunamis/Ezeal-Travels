@@ -69,7 +69,7 @@ export function FeaturedServices() {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   referrerPolicy="no-referrer"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="absolute top-4 right-4 flex items-center gap-1 glass-morphism px-3 py-1.5 rounded-full">
                   <Star size={14} className="text-yellow-400 fill-yellow-400" />
                   <span className="text-xs font-bold text-brand-dark">{service.rating}</span>

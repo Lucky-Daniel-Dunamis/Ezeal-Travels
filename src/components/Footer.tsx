@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <footer className="w-full px-6 md:px-12 lg:px-24 pt-24 pb-12 bg-white border-t border-gray-100 relative overflow-hidden">
       {/* Background Accent */}
-      <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-brand-orange/[0.03] to-transparent -z-10" />
+      <div className="absolute bottom-0 left-0 w-full h-1/2 bg-linear-to-t from-brand-orange/3 to-transparent -z-10" />
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
         
@@ -21,7 +21,7 @@ export function Footer() {
                 boxShadow: "0 2px 12px 0 rgba(51,168,216,0.13), 0 0 0 1.5px rgba(51,168,216,0.18)",
               }}
             >
-              <img src="/logo.png" alt="Eezeal Travels Logo" className="h-12 w-auto" style={{ mixBlendMode: 'multiply' }} />
+              <img src="./logo.png" alt="Eezeal Travels Logo" className="h-12 w-auto" style={{ mixBlendMode: 'multiply' }} />
             </div>
           </div>
           <p className="text-brand-gray text-base leading-relaxed max-w-xs">
@@ -75,19 +75,19 @@ export function Footer() {
         </div>
 
         {/* Contact Column */}
-        <div className="glass-morphism p-8 rounded-[2rem] shadow-premium">
+        <div className="glass-morphism p-8 rounded-4xl shadow-premium">
           <h4 className="font-heading font-bold text-lg text-brand-dark mb-6">
             Get in Touch
           </h4>
           <div className="flex flex-col gap-5">
             <div className="flex items-start gap-4">
-              <div className="w-8 h-8 rounded-lg bg-brand-orange/10 flex items-center justify-center text-brand-orange flex-shrink-0">
+              <div className="w-8 h-8 rounded-lg bg-brand-orange/10 flex items-center justify-center text-brand-orange shrink-0">
                 <MapPin size={16} />
               </div>
               <p className="text-xs font-medium text-brand-gray leading-tight">123 Travel Ave, Global City, World 10012</p>
             </div>
             <div className="flex items-start gap-4">
-              <div className="w-8 h-8 rounded-lg bg-brand-orange/10 flex items-center justify-center text-brand-orange flex-shrink-0">
+              <div className="w-8 h-8 rounded-lg bg-brand-orange/10 flex items-center justify-center text-brand-orange shrink-0">
                 <Phone size={16} />
               </div>
               <p className="text-xs font-medium text-brand-gray">+1 234 567 8900</p>
