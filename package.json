@@ -1,5 +1,6 @@
 {
-  "name": "react-example",
+  "name": "eezeal-travels",
+  "homepage": "https://Lucky-Daniel-Dunamis.github.io/Ezeal-Travels/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
